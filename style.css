@@ -21,20 +21,17 @@ body{
     
 }
 .main-section-container div i{
-    margin: 25px 45px;
+    margin: 30px;
     font-size: 25px;
 }
 .main-section-list{
     transform: rotate(-90deg);
-    /* width: 300px; */
     display: flex;
     justify-content: space-between;
     list-style: none;
     position: relative;
-    /* bottom: auto; */
     top: 77%;
 
-   
 }
 .main-section-list li{
     color: #fff;
@@ -239,12 +236,9 @@ body{
      .navbar-item a{
          font-size: 18px;
      }
-     /* .main-section-container{
-         width: 80%;
-     } */
     
  }
- /* @media (max-width :480px){
+ @media (max-width :480px){
       .navbar-list{
           flex-direction: column;
       }
@@ -254,5 +248,5 @@ body{
       .collection-content{
           margin-top: 250px;
       }
- } */
+ }
 
