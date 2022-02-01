@@ -236,7 +236,7 @@ body{
      }
     
  }
- @media (max-width :480px){
+ /* @media (max-width :480px){
       .navbar-list{
           flex-direction: column;
       }
@@ -246,5 +246,5 @@ body{
       .collection-content{
           margin-top: 250px;
       }
- }
+ } */
 
