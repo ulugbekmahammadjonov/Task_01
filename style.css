@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    font-family: 'Lato', sans-serif;
+    background: url(./images/backraund.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    background-color: #38383A;
+    color: #fff;
+}
+
+.container{
+    max-width: 1260px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.site-header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   height: 90px;
+}
+.site-logo{
+    text-decoration: none;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 700;
+}
+.site-logo:hover{
+    opacity: 0.8;
+}
+.site-logo:active{
+    opacity: 0.6;
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    /* transition: 0.5s; */
+}
+.navbar-item a:hover{
+    color: rgb(221, 187, 187);
+    /* border-bottom: 2px solid rgb(221, 187, 187); */
+}
+.navbar-item a:active{
+    opacity: 0.8;
+}
+.navbar-list .active a{
+    color: rgb(221, 187, 187);
+    border-bottom: 2px solid rgb(221, 187, 187);
+    padding-bottom: 5px;
+}
+
+.site-main{
+    width: 100%;
+}
+.collection-content{
+    margin-top: 130px;
+    width: 50%;
+}
+.collection-content h4{
+    font-size: 18px;
+    margin: 5px 0;
+}
+.collection-content div{
+    height: 3px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.collection-content div div{
+    width: 170px;
+    height: inherit;
+    background-color: khaki;
+    border-radius: inherit;
+}
+.collection-content p{
+    margin: 15px 0;
+}
+
+.main-content{
+    width: 50%;
+    margin-left: 50%;
+   
+    margin-top: -150px;
+}
+.main-content h2{
+    font-size: 90px;
+    
+}
+.main-content p{
+    font-size: 18px;
+    line-height: 27px;
+}
+.main-content p span{
+    text-decoration: underline;
+}
+.site-footer{
+    
+    margin-top: 200px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgba(14, 14, 19, 0.7);
+}
+.footer-img{
+    height:200px;
+    width: 200px;
+}
+.footer-list li p{
+    margin: 15px 0;
+}
+.footer-list li i{
+    font-size: 8px;
+}
+.footer-list li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-list li a:hover{
+    opacity: 0.8;
+}
+.footer-list li a:active{
+    opacity: 0.6;
+}
