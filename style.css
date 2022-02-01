@@ -234,9 +234,7 @@ body{
      .main-content h2{
          font-size: 45px;
      }
-     .navbar-item a{
-         font-size: 18px;
-     }
+     
     
  }
  @media (max-width :480px){
