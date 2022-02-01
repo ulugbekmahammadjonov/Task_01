@@ -152,6 +152,7 @@ body{
     margin-top: 200px;
     background-color: rgba(14, 14, 19, 0.7);
     width: 100%;
+    padding-bottom: 30px;
 }
 .footer-list{
     display: flex;
