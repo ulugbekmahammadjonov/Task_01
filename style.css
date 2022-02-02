@@ -11,12 +11,12 @@ body{
 }
 .main-section-container{
     border-right:1px solid #fff;
-    width: 70%;
+    /* width: 90%; */
 }
 .main-section-container div{
     color: #fff;
-    
     height: 100px;
+    /* width: 200px; */
     background-color: #44444d;
     
 }
