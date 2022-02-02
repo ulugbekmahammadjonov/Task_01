@@ -3,10 +3,13 @@
     margin: 0;
     padding: 0;
 }
+html{
+    font-size: 10px;
+}
 body{
     background-color: #38383A;
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 10rem 1fr;
     gap: 0;
 }
 .main-section-container{
@@ -14,13 +17,13 @@ body{
 }
 .main-section-container div{
     color: #fff;
-    height: 100px;
+    height: 10rem;
     background-color: #44444d;
     
 }
 .main-section-container div i{
-    margin: 30px;
-    font-size: 25px;
+    margin: 3rem;
+    font-size: 2.5rem;
 }
 .main-section-list{
     transform: rotate(-90deg);
@@ -33,10 +36,10 @@ body{
 }
 .main-section-list li{
     color: #fff;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 .main-section-list li:not(:last-child){
-    margin-right: 50px;
+    margin-right: 5rem;
 }
 .main-container{
     font-family: 'Lato', sans-serif;
@@ -50,19 +53,19 @@ body{
 .container{
     max-width: 1300px;
     width: 100%;
-    padding: 0 50px;
+    padding: 0 5rem;
     margin: 0 auto;
 }
 .site-header{
    display: flex;
    align-items: center;
    justify-content: space-between;
-   height: 90px;
+   height: 9rem;
 }
 .site-logo{
     text-decoration: none;
     color: #fff;
-    font-size: 46px;
+    font-size: 4.6rem;
     font-weight: 700;
 }
 .site-logo:hover{
@@ -84,7 +87,7 @@ body{
 .navbar-item a{
     text-decoration: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 400;
     
     transition: 0.5s;
@@ -98,26 +101,26 @@ body{
 .navbar-list .active a{
     color: rgb(221, 187, 187);
     border-bottom: 2px solid rgb(221, 187, 187);
-    padding-bottom: 5px;
+    padding-bottom: 0.5rem;
 }
 
 .site-main{
     width: 100%;
 }
 .collection-content{
-    margin-top: 130px;
+    margin-top: 13rem;
     width: 50%;
 }
 .collection-content h4{
-    font-size: 18px;
-    margin: 5px 0;
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
 }
 .collection-content div{
-    height: 3px;
-    width: 250px;
-    border-radius: 50px;
+    height: 0.3rem;
+    width: 25rem;
+    border-radius: 5rem;
     background-color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 .collection-content div div{
     width: 70%;
@@ -126,31 +129,32 @@ body{
     border-radius: inherit;
 }
 .collection-content p{
-    margin: 15px 0;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
 }
 
 .main-content{
     width: 50%;
     margin-left: 50%;
    
-    margin-top: -150px;
+    margin-top: -15rem;
 }
 .main-content h2{
-    font-size: 80px;
+    font-size: 8rem;
     
 }
 .main-content p{
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
 }
 .main-content p span{
     text-decoration: underline;
 }
 .site-footer{
-    margin-top: 200px;
+    margin-top: 20rem;
     background-color: rgba(14, 14, 19, 0.7);
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
 .footer-list{
     display: flex;
@@ -160,15 +164,16 @@ body{
    
 }
 .footer-img{
-    height:200px;
-    width: 200px;
+    height:20rem;
+    width: 20rem;
     object-fit: cover   ;
 }
 .footer-list li p{
-    margin: 15px 0;
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
 }
 .footer-list li i{
-    font-size: 8px;
+    font-size: 0.8rem;
 }
 .footer-list li a{
     text-decoration: none;
@@ -190,13 +195,13 @@ body{
          width: 100%;
      }
      .site-logo{
-         margin: 30px 0;
+         margin: 3rem 0;
      }
      .navbar-list{
          width: 80%;
      }
      .main-content h2{
-         font-size: 55px;
+         font-size: 5.5rem;
      }
      .site-footer{
          width: 100%;
@@ -206,30 +211,28 @@ body{
          flex-wrap: wrap;
      }
      .footer-list li img{
-         margin: 15px 0;
+         margin: 1.5rem 0;
      }
  }
  @media (max-width :768px){
      body{
          display: flex;
          flex-direction: column;
-         /* align-items: center; */
      }
      .main-section-container{
          display: flex;
          align-items: center;
          justify-content: space-between;
-         margin-right: 20px;
+         margin-right: 2rem;
          border: none;
      }
      .main-section-list{
          transform: rotate(0deg);
-
          position: static;
          margin-top: 0;
      }
      .container{
-         padding: 0 20px;
+         padding: 0 2rem;
      }
      .navbar-list{
          width: 100%;
@@ -238,25 +241,22 @@ body{
      .collection-content{
          width: 100%;
          text-align: center;
-         
      }
      .collection-content div{
          width: 100%;
          text-align: center;
-         
      }
      .collection-content div div{
          width: 70%;
-
      }
      .main-content{
          width: 100%;
-         margin: 40px 0;
+         margin: 4rem 0;
          text-align: center;
 
      }
      .main-content h2{
-         font-size: 45px;
+         font-size: 4.5rem;
      }
      
     
@@ -266,10 +266,10 @@ body{
           flex-direction: column;
       }
       .navbar-item{
-          margin-bottom: 10px;
+          margin-bottom: 1rem;
       }
       .collection-content{
-          margin-top: 250px;
+          margin-top: 25rem;
           text-align: center;
       }
       .site-footer{
@@ -280,13 +280,13 @@ body{
           width: 100%;
           text-align: center;
           flex-direction: column;
-          margin: 20px 0;
+          margin: 2rem 0;
       }
       .footer-list li h3{
-          margin-top: 20px;
+          margin-top: 2rem;
       }
       .footer-list li img{
-          border-radius: 10px;
+          border-radius: 1rem;
       }
  }
 
