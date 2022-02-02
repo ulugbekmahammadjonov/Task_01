@@ -272,5 +272,21 @@ body{
           margin-top: 250px;
           text-align: center;
       }
+      .site-footer{
+          width: 100%;
+          text-align: center;
+      }
+      .footer-list{
+          width: 100%;
+          text-align: center;
+          flex-direction: column;
+          margin: 20px 0;
+      }
+      .footer-list li h3{
+          margin-top: 20px;
+      }
+      .footer-list li img{
+          border-radius: 10px;
+      }
  }
 
