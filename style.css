@@ -112,7 +112,7 @@ body{
     width: 50%;
 }
 .collection-content h4{
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin: 0.5rem 0;
 }
 .collection-content div{
@@ -130,13 +130,12 @@ body{
 }
 .collection-content p{
     margin: 1.5rem 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .main-content{
     width: 50%;
     margin-left: 50%;
-   
     margin-top: -15rem;
 }
 .main-content h2{
@@ -151,7 +150,7 @@ body{
     text-decoration: underline;
 }
 .site-footer{
-    margin-top: 20rem;
+    /* margin-top: 20rem; */
     background-color: rgba(14, 14, 19, 0.7);
     width: 100%;
     padding-bottom: 3rem;
@@ -168,9 +167,12 @@ body{
     width: 20rem;
     object-fit: cover   ;
 }
+.footer-list li h3{
+    font-size: 2rem;
+}
 .footer-list li p{
     margin: 1.5rem 0;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 .footer-list li i{
     font-size: 0.8rem;
@@ -178,6 +180,7 @@ body{
 .footer-list li a{
     text-decoration: none;
     color: #fff;
+    font-size: 1.8rem;
 }
 .footer-list li a:hover{
     opacity: 0.8;
