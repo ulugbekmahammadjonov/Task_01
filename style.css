@@ -120,7 +120,7 @@ body{
     margin-bottom: 20px;
 }
 .collection-content div div{
-    width: 170px;
+    width: 70%;
     height: inherit;
     background-color: khaki;
     border-radius: inherit;
@@ -219,7 +219,8 @@ body{
          display: flex;
          align-items: center;
          justify-content: space-between;
-         ma
+         margin-right: 20px;
+         border: none;
      }
      .main-section-list{
          transform: rotate(0deg);
@@ -236,6 +237,17 @@ body{
      
      .collection-content{
          width: 100%;
+         text-align: center;
+         
+     }
+     .collection-content div{
+         width: 100%;
+         text-align: center;
+         
+     }
+     .collection-content div div{
+         width: 70%;
+
      }
      .main-content{
          width: 100%;
